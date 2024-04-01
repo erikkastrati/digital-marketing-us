@@ -10,45 +10,47 @@ const Recruiter = () => {
           <img src={ImgPractice} alt="practiceimg" />
         </div>
         <div className="recruiter-right">
-          <h3>1-on-1 with Recruiter </h3>
-          <p>
-            While you enjoy your new workplace as marketer, take the opportunity
-            to add bonus skills with the post Academic Courses for Leadership,
-            Entrepreneurship and Career Success.
-          </p>
-          <span>This courses you can watch on your own time.</span>
+          <h3>Personal Recruiter Consultations </h3>
 
           <div className="recruiter">
             <div className="rec">
               <img src={Tick} alt="tick" />
-              <h5>Teamwork and Responsibility</h5>
+              <h5>Personal outreach to 2 recruiters on your behalf</h5>
             </div>
             <div className="rec">
               <img src={Tick} alt="tick" />
-              <h5>Understanding of Marketing Brief and Work Tasks</h5>
+              <h5>Handpicked selection of 5 global job opportunities</h5>
             </div>
             <div className="rec">
               <img src={Tick} alt="tick" />
-              <h5>Email Marketing</h5>
+              <h5>Curated list of 5 companies tailored to your interests</h5>
             </div>
             <div className="rec">
               <img src={Tick} alt="tick" />
               <h5>
-                Copywriting, Content Creation, Wordpress, SEO, Project
-                Management
+                Weekly introductions to 5 industry recruiters for enhanced
+                networking
               </h5>
             </div>
             <div className="rec">
               <img src={Tick} alt="tick" />
-              <h5>B2B Lead Generation, PR, Event Management</h5>
+              <h5>
+                Customized cover letters to highlight your unique strengths
+              </h5>
             </div>
             <div className="rec">
               <img src={Tick} alt="tick" />
-              <h5>Cold Email Outreach, B2B, Communication</h5>
+              <h5>Dedicated bi-weekly sessions to review your progress</h5>
             </div>
             <div className="rec">
               <img src={Tick} alt="tick" />
-              <h5>Account Management & Community Building</h5>
+              <h5>Exclusive monthly Q&A sessions for personalized guidance</h5>
+            </div>
+            <div className="rec">
+              <img src={Tick} alt="tick" />
+              <h5>
+                Assistance in establishing your bespoke job tracking system
+              </h5>
             </div>
           </div>
         </div>

@@ -45,9 +45,7 @@
   letter-spacing: -0.3px;
   padding-bottom: 18px;
 }
-.recruiter-right p:nth-child(5) {
-  margin-bottom: 32px;
-}
+
 .recruiter .rec {
   display: flex;
   align-items: center;
