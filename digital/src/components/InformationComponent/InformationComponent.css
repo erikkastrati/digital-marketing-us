@@ -1,0 +1,95 @@
+.information-part {
+  margin: 192px 0px 112px 0px;
+}
+.information-title .title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.information-part .box {
+  height: 393px;
+}
+
+.information-part img:first {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.information-part .box:first-child img {
+  padding: 55px 106.5px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border-radius: 14px;
+  background: linear-gradient(90deg, #003aff 0%, #003eff 100%);
+  /* To maintain aspect ratio */
+}
+.information-part .box-container h3 {
+  padding: 32px 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .information-part {
+    max-width: 100%;
+    margin: 40px 0px;
+    padding: 0px 20px;
+  }
+  .information-title .title {
+    width: 76%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px auto;
+    gap: 20px;
+  }
+  .information-part .box {
+    height: auto;
+  }
+  .information-part .title h3 {
+    padding-bottom: 13px;
+    width: 90%;
+    color: #051238;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 24px */
+    letter-spacing: -1.8px;
+  }
+  .information-part .title p {
+    padding-bottom: 25px;
+    width: 100%;
+    color: rgba(5, 18, 56, 0.6);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 88.889% */
+    letter-spacing: -0.4px;
+  }
+  .information-part .box-container h3 {
+    width: 90%;
+    color: #051238;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 21.6px */
+    letter-spacing: -0.216px;
+    margin: 0px auto;
+  }
+  .information-part .box:first-child img {
+    width: 40%;
+    padding: 20% 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(90deg, #003aff 0%, #003eff 100%);
+  }
+}

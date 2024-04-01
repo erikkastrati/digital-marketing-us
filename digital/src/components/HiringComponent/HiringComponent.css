@@ -1,0 +1,63 @@
+.hiring-container {
+  width: 100%;
+  padding: 0;
+  margin: 129px 0px 98px 0px;
+}
+.hiring-section {
+  padding: 0px 64px;
+}
+.hiring-section .title p {
+  margin-top: 10px;
+}
+.box-hiring {
+  margin-top: 50px;
+}
+.box-hiring .box {
+  height: 393px;
+}
+.box-hiring img:first {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.box-hiring .box img {
+  height: 259px;
+}
+.box-hiring h3 {
+  padding: 20px;
+}
+@media screen and (max-width: 768px) {
+  .hiring-section .button-practice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-hiring .box {
+    height: auto;
+  }
+  .box-hiring .box-container h3 {
+    width: 90%;
+    color: #051238;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 21.6px */
+    letter-spacing: -0.216px;
+    margin: 0px auto;
+  }
+  .box-hiring .box:first-child img {
+    width: 40%;
+    padding: 10% 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+  }
+  .box-hiring .box:first-child img {
+    height: 159px;
+  }
+}

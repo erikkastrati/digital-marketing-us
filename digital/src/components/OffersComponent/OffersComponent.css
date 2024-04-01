@@ -1,0 +1,51 @@
+.offers-section h3 {
+  color: #051238;
+  text-align: center;
+  font-family: "Manrope";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 40px */
+  letter-spacing: -1.8px;
+}
+.title-offersection {
+  margin-bottom: 46px;
+}
+.long-cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 32px;
+}
+.long-cards .paragraph-with-tick {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.long-cards .row-2 img {
+  display: flex;
+  width: 14px;
+}
+.price_perweek .weekspan {
+  color: #051238;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.8px;
+}
+@media screen and (max-width: 1068px) {
+  .offers-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .long-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}

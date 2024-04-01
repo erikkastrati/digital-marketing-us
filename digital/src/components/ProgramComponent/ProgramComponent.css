@@ -1,0 +1,183 @@
+.program_section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 81px;
+  margin: 94px 0px 181px 0px;
+  padding: 0px 64px;
+}
+.program-left {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.programs-left h3 {
+  color: #051238;
+  padding-bottom: 32px;
+  font-family: Manrope;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 40px */
+  letter-spacing: -1.8px;
+}
+
+.program-right img {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.programs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-gap: 20px; /* Adjust the gap between grid items */
+}
+.program {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.program img {
+  background: url("../../assets/images/Path\ 440.png") no-repeat;
+  border-radius: 50%;
+  background-size: auto;
+  background-position: center;
+}
+.program img:hover {
+  cursor: pointer;
+}
+.program h4 {
+  width: 59%;
+  color: rgba(5, 18, 56, 0.8);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: -0.8px;
+}
+.ReactModal__Content {
+  width: 60%;
+  margin: 0px auto;
+}
+.modal-header {
+  padding: 30px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-header img:hover {
+  cursor: pointer;
+}
+.modal-header h2 {
+  color: #051238;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: -0.288px;
+}
+.section-2 {
+  position: relative;
+  padding: 32px 0px;
+}
+.section-3 {
+  padding-top: 32px;
+}
+
+.program-content h3 {
+  color: #051238;
+  margin-bottom: 24px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: -0.8px;
+}
+.program-content .description-modaltick {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.description-modaltick p {
+  width: 39%;
+  padding: 8px 0px;
+  color: #051238;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+}
+@media only screen and (max-width: 968px) {
+  .program_section {
+    margin: 29px 0px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .program_section .program h4 {
+    color: rgba(5, 18, 56, 0.8);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 16.8px */
+    letter-spacing: -0.8px;
+  }
+  .program-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .program-img {
+    width: 60%;
+    display: flex;
+    margin-left: -20px;
+    justify-content: center;
+  }
+  .program-right img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .ReactModal__Content {
+    width: 65%;
+  }
+
+  .modal-header {
+    padding: 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .modal-header h2 {
+    color: #051238;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 28.8px */
+    letter-spacing: -0.288px;
+  }
+  .description-modaltick p {
+    width: 100%;
+    padding: 8px 0px;
+    color: #051238;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.4px;
+  }
+}

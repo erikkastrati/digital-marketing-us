@@ -1,0 +1,42 @@
+.diploma-container {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 106px;
+}
+.diploma-section {
+  padding: 0px 64px;
+}
+.table-diploma {
+  max-width: 100%;
+  margin-top: 112px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+  padding: 42px;
+  border: 1px solid #ccc;
+  border-radius: 9px;
+  background: linear-gradient(112deg, #051238 0%, #0e339e 151.57%);
+}
+.table-diploma img {
+  width: 48px;
+  height: 48px;
+}
+.table-diploma h3 {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: -0.288px;
+}
+.table-diploma p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: -0.8px;
+}

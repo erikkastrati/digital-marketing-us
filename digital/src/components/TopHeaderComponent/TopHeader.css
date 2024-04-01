@@ -1,0 +1,27 @@
+.topheader-section {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.topheader-title {
+  padding: 0px 64px;
+  background: var(
+    --gradient,
+    linear-gradient(156deg, #051238 0%, #0e339e 192.36%)
+  );
+  display: flex;
+  justify-content: center;
+  padding: 12px 16px;
+}
+.topheader-title h6 {
+  color: #fff;
+  text-align: center;
+
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: -0.8px;
+  text-transform: uppercase;
+}
