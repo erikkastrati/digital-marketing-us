@@ -45,7 +45,7 @@ export const teamMembers = [
   },
 
   {
-    imageSrc: require("../assets/team/Katerina Popova 1.png"),
+    imageSrc: require("../assets/team/darkoangelovski.png"),
     name: "Darko Angelovski ",
     description:
       "Founder of Distinct Marketing Agency with over 10 years of experience in working with Google Ads and Google Analytics. ",

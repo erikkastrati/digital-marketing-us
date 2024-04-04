@@ -20,6 +20,8 @@ import TeamMembersComponent from "../../components/TeamMembersComponent/TeamMemb
 import HowToFinanceComponent from "../../components/HowToFinance/HowToFinanceComponent";
 import SuccessStories from "../../components/SuccessStories/SuccessStories";
 import Concept from "../../components/ConceptComponent/Concept";
+import ArijanaComponent from "../../components/ArijanaVideo/ArijanaComponent";
+import SecureChance from "../../components/SecureChance/SecureChance";
 
 const Home = () => {
   return (
@@ -43,6 +45,8 @@ const Home = () => {
       <TeamMembersComponent />
       <HowToFinanceComponent />
       <SuccessStories />
+      <ArijanaComponent />
+      <SecureChance />
     </div>
   );
 };

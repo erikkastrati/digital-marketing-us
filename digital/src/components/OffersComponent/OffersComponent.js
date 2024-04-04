@@ -17,11 +17,12 @@ const OffersComponent = () => {
           className="second-longcard"
           image={AcademyOnly}
           paragraphs={[
-            "All Modules ",
-            "Twice a week for 2 hours 12PM - 2 PM ",
-            "Delivered Online Synchronously",
-            "US Recognized Diploma",
-            "Hiring Contest ",
+            "Full Course Syllabus ",
+            "Two Classes per week, 4 hours total ",
+            "Synchronous Online Delivery",
+            "US Accredited Diploma",
+            "Comprehensive Resume / LinkedIn Profile Enhancement ",
+            "Monthly Hiring Contests ",
           ]}
           title="FOUNDATION TRACK"
           price="$ 3,500"
@@ -38,11 +39,9 @@ const OffersComponent = () => {
           saves="Save $ 4,000"
           image={Star}
           paragraphs={[
-            "Everything from Basic Program",
-            "90 days Internship Included with the Program",
-            "Freelance Course ",
-            "Mega Courses ( AI + VIdeo Edit )  ",
-            "Hiring Contest ",
+            "Everything from Foundation Track",
+            "90 days Internship Included",
+            "Freelancing Module Included  ",
           ]}
           lastparagraph="Financing also available over 12-24 months period. "
           buttonContent="Available with 50% off Scholarship"
@@ -57,9 +56,10 @@ const OffersComponent = () => {
           normalprice="Normal Price:$14,000"
           saves="SAVE $ 7,000"
           paragraphs={[
-            "Everything from Mega+  ",
-            "1 on 1 with Professional Recruiter so you can get to the next level in your career ",
-            "10x Courses ( Leadership, Entrepreneurship, Setting up your career for success ).  ",
+            "Everything from Growth Track ",
+            "Advanced Courses ( AI + Video Skills ) ",
+            "Career Accelerator Program  ",
+            "Personal Recruiter for Career Advancement",
           ]}
           lastparagraph="Financing also available over 12-24 months period.  "
           buttonContent="Available with 50% off Scholarship"

@@ -1,0 +1,23 @@
+.video-container {
+  max-width: 100%;
+  margin-bottom: 187px;
+}
+.video-section {
+  padding: 0px 64px;
+}
+.video-wrapper {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.video-wrapper video {
+  width: 40%;
+  position: relative;
+  z-index: 2;
+}
+@media screen and (max-width: 768px) {
+  .video-wrapper video {
+    width: 100%;
+  }
+}

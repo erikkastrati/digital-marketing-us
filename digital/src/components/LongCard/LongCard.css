@@ -50,7 +50,7 @@
 .button-top {
   position: absolute;
   top: -22px; /* Adjust this value as needed to align with the top border */
-  left: 159px; /* Adjust this value to position the button on the right side */
+  left: 139px; /* Adjust this value to position the button on the right side */
   z-index: 1;
   display: flex;
   padding: 12px 16px;
