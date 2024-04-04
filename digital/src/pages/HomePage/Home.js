@@ -13,8 +13,13 @@ import EarningComponent from "../../components/EarningComponent/EarningComponent
 import HiringComponent from "../../components/HiringComponent/HiringComponent";
 import Diploma from "../../components/DiplomaComponent/Diploma";
 import Recruiter from "../../components/1-on-1Recruiter/Recruiter";
-import Skill from "../../components/SkillComponent/Skill";
+// import Skill from "../../components/SkillComponent/Skill";
 import BonusComponent from "../../components/BonusComponent/BonusComponent";
+import GetMegaCourse from "../../components/Get+MegaCoursesComponent/GetMegaCourse";
+import TeamMembersComponent from "../../components/TeamMembersComponent/TeamMembersComponent";
+import HowToFinanceComponent from "../../components/HowToFinance/HowToFinanceComponent";
+import SuccessStories from "../../components/SuccessStories/SuccessStories";
+import Concept from "../../components/ConceptComponent/Concept";
 
 const Home = () => {
   return (
@@ -25,15 +30,19 @@ const Home = () => {
       <Hero />
       <InformationComponent />
       <OffersComponent />
+      <Concept />
       <ProgramComponent />
+      <HiringComponent />
+      <Diploma />
       <PracticeComponent />
       <TestimonialsComponent />
       <EarningComponent />
-      <HiringComponent />
-      <Diploma />
       <Recruiter />
-      <Skill />
+      <GetMegaCourse />
       <BonusComponent />
+      <TeamMembersComponent />
+      <HowToFinanceComponent />
+      <SuccessStories />
     </div>
   );
 };

@@ -12,28 +12,33 @@ const PracticeComponent = () => {
         </div>
         <div className="practice-right">
           <ButtonPractice>months 4-6</ButtonPractice>
-          <h3>Applied Experience</h3>
+          <h3>Hands-on Experience </h3>
           <p>
-            Enroll in our Flexible Internship to gain real-world experience as
-            you study.
+            Join our Flexible Internship for hands-on learning while you
+            complete your studies.
           </p>
           <p>
-            This 3-month program offers 12 weekly hours you can tailor to your
-            schedule, teamwork with a peer, and mentor guidance.{" "}
+            This 12-week experience fits 12 flexible hours into your weekly
+            routine, includes collaboration with a fellow student, and features
+            mentorship for deeper insights.
           </p>
-          <p>Below, explore the skills you’ll master in the Growth Track :</p>
+          <p>Discover the skills you'll hone in the Growth Track below:</p>
           <div className="practices">
             <div className="pract">
               <img src={Tick} alt="tick" />
-              <h5>Teamwork and Responsibility</h5>
+              <h5>Collaborative Projects & Accountability</h5>
             </div>
             <div className="pract">
               <img src={Tick} alt="tick" />
-              <h5>Understanding of Marketing Brief and Work Tasks</h5>
+              <h5>Marketing Objectives and Task Execution</h5>
             </div>
             <div className="pract">
               <img src={Tick} alt="tick" />
               <h5>Email Marketing</h5>
+            </div>
+            <div className="pract">
+              <img src={Tick} alt="tick" />
+              <h5>Cold Email Outreach & B2B Lead Generation</h5>
             </div>
             <div className="pract">
               <img src={Tick} alt="tick" />
@@ -44,11 +49,7 @@ const PracticeComponent = () => {
             </div>
             <div className="pract">
               <img src={Tick} alt="tick" />
-              <h5>B2B Lead Generation, PR, Event Management</h5>
-            </div>
-            <div className="pract">
-              <img src={Tick} alt="tick" />
-              <h5>Cold Email Outreach, B2B, Communication</h5>
+              <h5>Public Relations & Event Management</h5>
             </div>
             <div className="pract">
               <img src={Tick} alt="tick" />

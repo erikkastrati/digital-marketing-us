@@ -1,0 +1,68 @@
+.card-get {
+  display: flex;
+  padding: 48px 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  flex: 1 0 0;
+  border-radius: 16px;
+  border: 1px solid rgba(5, 18, 56, 0.2);
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(101, 119, 131, 0.1);
+}
+.card-get h2 {
+  color: #051238;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 90%; /* 18px */
+  letter-spacing: -0.8px;
+  text-transform: uppercase;
+}
+.card-get span {
+  color: #051238;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: -0.8px;
+}
+.card-get .tick-getcourse {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.card-get hr {
+  width: 100%;
+}
+
+.cardget-body {
+  height: 450px;
+}
+.cardget-body .first-paragraph {
+  margin-bottom: 20px;
+  color: #051238;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: -0.8px;
+}
+.cardget-body .nextgen {
+  margin-bottom: 20px;
+}
+.tick-getcourse p {
+  color: #051238;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 100% */
+  letter-spacing: -0.4px;
+}

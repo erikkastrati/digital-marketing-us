@@ -6,7 +6,7 @@ const TestimonialsComponent = () => {
   const boxesData = [
     {
       shortDescription:
-        "After the Internship I started applying for jobs because I felt so confident that I know what I am doing and I can work as marketer. ",
+        "After my internship, I began job applications with increased confidence, ready to start my new career as a marketer.",
       image: require("../../assets/images/Ellipse 309.png"),
       altText: "Image 1",
       imageDescription: "Lori B. ",
@@ -15,7 +15,7 @@ const TestimonialsComponent = () => {
     },
     {
       shortDescription:
-        "Literally we did everything with the mentor, from writing a copy, to SEO optimization, Email Marketing Automation, B2B Cold Outreach to organizing events.  ",
+        "Our mentor guided us through the entire marketing cycle , from copywriting and SEO to email automation and B2B outreach, even event planning.",
       image: require("../../assets/images/Ellipse 309 (1).png"),
       altText: "Image 2",
       imageDescription: "Philip K. ",
@@ -24,7 +24,7 @@ const TestimonialsComponent = () => {
     },
     {
       shortDescription:
-        "The most interesting part from the program was the Internship. I worked in a team with one more colleague and our mentor was Arijana. ",
+        "The highlight of the program was definitely the internship, where I get to team up with my colleagues and received great mentorship from the founder Arijana.",
       image: require("../../assets/images/Ellipse 309 (2).png"),
       altText: "Image 2",
       imageDescription: "Maria P. ",
@@ -37,7 +37,7 @@ const TestimonialsComponent = () => {
       <div className="testimonial-section">
         <TitleComponent
           title="Internship Testimonials"
-          paragraph1="What is the experience of the students that took part in the Internship Program? Read below."
+          paragraph1="Hear from our interns about their experiences in the program."
         />
         <div className="boxes-internship">
           <BoxTestimonials boxes={boxesData} links={true} />

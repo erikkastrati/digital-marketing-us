@@ -1,23 +1,34 @@
 import React from "react";
 import "../HeroComponent/Hero.css";
 import GoogleReview from "../../assets/images/google-review.png";
+import HeroTick from "../../assets/images/Group 44671.svg";
 
 const Hero = () => {
   return (
     <div className="hero">
       <div className="hero__left">
         <h3>Digital Marketing Academy</h3>
-        <p className="firstparagaph">for people who want to work as</p>
-        <span className="first-bluespan">digital marketing specialist</span>
-        <p className="second-paragraph">
-          Skills+Flexible Internship + Official US Diploma + <br />
-          Hiring Contests = <span>Guaranteed Success</span>
-        </p>
-        <h5>What Happens After the Academy?</h5>
-        <p className="third-paragraph">
-          Enjoy in the Mega Courses that will bring you to the next level in
-          your career. ❤️
-        </p>
+        <p className="firstparagaph">Designed for Aspiring</p>
+        <span className="first-bluespan">Digital Marketing Specialists</span>
+        <div className="hero-tick">
+          <img src={HeroTick} alt="herotick" />
+          <p>Skill Mastery</p>
+        </div>
+        <div className="hero-tick">
+          <img src={HeroTick} alt="herotick" />
+          <p>Hands-On Internship</p>
+        </div>
+        <div className="hero-tick">
+          <img src={HeroTick} alt="herotick" />
+          <p>Accredited US Diploma</p>
+        </div>
+        <div className="hero-tick">
+          <img src={HeroTick} alt="herotick" />
+          <p>
+            Hiring Contests = <span className="circleline">Career Success</span>{" "}
+          </p>
+        </div>
+
         <img
           src={GoogleReview}
           alt="google-review"
@@ -32,26 +43,20 @@ const Hero = () => {
           <h2>Next Group Starts on May 15!</h2>
           <span>Fill up the form and our coordinator will contact you! </span>
           <div className="form-group firstchild">
-            <input type="text" name="fullname" placeholder="Име и презиме" />
+            <input type="text" name="fullname" placeholder="Name and Surname" />
           </div>
           <div className="form-group">
-            <input type="email" name="email" placeholder="Емаил Адреса" />
+            <input type="email" name="email" placeholder="Email Address" />
           </div>
           <div className="form-group">
-            <input type="text" name="phone" placeholder="Телефон" />
+            <input type="text" name="phone" placeholder="Phone" />
           </div>
           <div className="form-group">
             <select name="academy">
-              <option value="">Одбери Академија</option>
-              <option value="digitalMarketing">
-                Академија за Дигитален Маркетинг
-              </option>
-              <option value="webDevelopment">
-                Академија за Веб Девелопмент
-              </option>
-              <option value="graphicDesign">
-                Академија за Графички Дизајн
-              </option>
+              <option value="">Choose A Program</option>
+              <option value="digitalMarketing"></option>
+              <option value="webDevelopment"></option>
+              <option value="graphicDesign"></option>
             </select>
             <button type="submit">Apply Now</button>
           </div>

@@ -7,14 +7,14 @@ function LongCard({
   paragraphs,
   lastparagraph,
   buttonContent,
-  spanContent,
-  spanContent2,
-  spanContent3,
+  title,
+  price,
+  normalprice,
+  saves,
   priceperweek,
   buttontop,
-  scrollToId, // New prop for the ID to scroll to
+  scrollToId, 
 }) {
-  // Function to handle scrolling to the specified ID
   const scrollToSection = () => {
     const element = document.getElementById(scrollToId);
     if (element) {
@@ -25,23 +25,29 @@ function LongCard({
   return (
     <div className="long-card">
       {buttontop && <button className="button-top">{buttontop}</button>}
-      <div className="image">
-        <img src={image} alt="longcard" />
-      </div>
       <div className="row-1">
-        {paragraphs.slice(0, 2).map((paragraph, index) => (
-          <p key={index}>{paragraph}</p>
-        ))}
-        <br />
-        <span>{spanContent}</span>
-        <br />
-        <span>{spanContent2}</span>
-        <br />
-        <span>{spanContent3}</span>
+        <div className="head-longcard">
+          <div className="title-longcard">
+            <h3>{title}</h3>
+          </div>
+          <div className="description-headcard">
+            <div className="img-longcard">
+              <img src={image} alt="imglongcard" />
+            </div>
+            <div className="dsp-headcard">
+              <p>{price}</p>
+            </div>
+          </div>
+          <h4>*50% Scholarship</h4>
+        </div>
+        <div className="saves-section">
+          <p>{normalprice}</p>
+          <span className="save">{saves}</span>
+        </div>
       </div>
       <hr />
       <div className="row-2">
-        {paragraphs.slice(2).map((paragraph, index) => (
+        {paragraphs.slice(0).map((paragraph, index) => (
           <div key={index} className="paragraph-with-tick">
             <img src={Tick} alt="Tick" />
             <p>{paragraph}</p>
@@ -56,6 +62,7 @@ function LongCard({
       </div>
       <hr />
       <div className="row-3">
+        <p>Limited Availability</p>
         <p>{lastparagraph}</p>
         {/* Using a button with onClick for scrolling to the specified ID */}
         <button className="button-offer" onClick={scrollToSection}>

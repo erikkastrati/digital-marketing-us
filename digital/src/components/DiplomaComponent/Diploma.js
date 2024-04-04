@@ -1,5 +1,5 @@
 import React from "react";
-import ButtonPractice from "../ButtonPracticeComponent/ButtonPractice";
+// import ButtonPractice from "../ButtonPracticeComponent/ButtonPractice";
 import TitleComponent from "../TitleComponent/TitleComponent";
 import USA from "../../assets/images/usa-icon.svg";
 import "../DiplomaComponent/Diploma.css";
@@ -7,8 +7,7 @@ const Diploma = () => {
   return (
     <div className="diploma-container">
       <div className="diploma-section">
-        <ButtonPractice> MONTH 9-12</ButtonPractice>
-        <TitleComponent title="Earn Diploma That Opens Doors" />
+        <TitleComponent title="Earn a Diploma That Opens Doors" />
 
         <div className="table-diploma">
           <img src={USA} alt="usa" />

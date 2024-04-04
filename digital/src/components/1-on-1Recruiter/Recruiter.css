@@ -26,6 +26,7 @@
   flex-direction: column;
 }
 .recruiter-right h3 {
+  width: 50%;
   padding: 32px 0px;
   color: #051238;
   font-family: Manrope;

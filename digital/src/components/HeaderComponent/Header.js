@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "../HeaderComponent/Header.css";
 import Logo from "../../assets/images/Logo.svg";
 import Arrow from "../../assets/images/arrow-down.svg";
+import BurgerMenu from "../../assets/images/bars-solid.svg";
 const Header = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
   return (
     <div className="header-section">
       <nav>
@@ -10,7 +13,7 @@ const Header = () => {
           <img src={Logo} alt="logo" />
         </div>
         <div className="nav-items">
-          <ul className="items">
+          <ul className={`items ${showMenu ? "show" : ""}`}>
             <li>
               <a href="/">
                 Bootcamps
@@ -24,6 +27,9 @@ const Header = () => {
               </a>
             </li>
           </ul>
+        </div>
+        <div className="burger-menu" onClick={() => setShowMenu(!showMenu)}>
+          <img src={BurgerMenu} alt="burger-icon" />
         </div>
       </nav>
     </div>

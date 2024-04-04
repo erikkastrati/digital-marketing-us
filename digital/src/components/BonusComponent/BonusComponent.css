@@ -2,6 +2,9 @@
   width: 100%;
   margin-bottom: 192px;
 }
+.container-bonus .button-practice {
+  padding: 0px 64px;
+}
 .container-bonus .title h3 {
   margin: 0px auto;
   width: 26%;

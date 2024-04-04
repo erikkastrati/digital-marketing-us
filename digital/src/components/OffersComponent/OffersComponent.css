@@ -1,6 +1,6 @@
 .offers-section h3 {
   color: #051238;
-  text-align: center;
+
   font-family: "Manrope";
   font-size: 30px;
   font-style: normal;
@@ -35,6 +35,7 @@
   line-height: 120%;
   letter-spacing: -0.8px;
 }
+
 @media screen and (max-width: 1068px) {
   .offers-section {
     display: flex;

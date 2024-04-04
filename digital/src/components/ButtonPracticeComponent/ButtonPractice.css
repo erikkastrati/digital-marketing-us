@@ -2,8 +2,6 @@
   width: 100%;
 }
 .button-practice button {
-  margin-bottom: 32px;
-
   display: flex;
   height: 36px;
   padding: 12px 33px 12px 24px;

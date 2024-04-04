@@ -14,7 +14,7 @@ const TitleComponent = ({
         {successText && <span>{successText}</span>}
       </h3>
       <p>{paragraph1}</p>
-      <p>{paragraph2}</p>
+      <p className="paragraph-2">{paragraph2}</p>
     </div>
   );
 };

@@ -1,0 +1,59 @@
+.concepts-section {
+  margin: 125px 0px;
+  padding: 0px 64px;
+}
+.concepts-section .title p {
+  color: rgba(5, 18, 56, 0.6);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: -0.4px;
+}
+.concepts-section .title .paragraph-2 {
+  color: rgba(5, 18, 56, 0.6);
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.4px;
+}
+.table-concept {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+.table-concept img {
+  width: 90%;
+}
+.table-concept-mobile {
+  display: none;
+}
+@media screen and (max-width: 784px) {
+  .concepts-section {
+    margin-bottom: 105px;
+    padding: 0px 20px;
+  }
+  .table-concept img {
+    width: 89%;
+    height: 100%;
+  }
+  .table-concept {
+    display: none;
+  }
+  .table-concept-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .table-concept-mobile img {
+    width: 90%;
+    margin: 0px auto;
+  }
+}

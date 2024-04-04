@@ -1,0 +1,117 @@
+.boxes-successstories {
+  margin-top: 64px;
+  display: flex;
+}
+.title-success .title h3 {
+  color: #051238;
+  text-align: center;
+  margin-bottom: 24px;
+  font-family: Manrope;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 48px */
+  letter-spacing: -2px;
+}
+.title-success .title p {
+  color: rgba(5, 18, 56, 0.6);
+  text-align: center;
+  padding-bottom: 14px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  letter-spacing: -0.4px;
+}
+.boxes-successstories {
+  padding: 0px 20px;
+  height: auto;
+}
+.boxes-successstories img:nth-child(1) {
+  width: 206.875px;
+  height: 206.875px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+  padding: 32px 0px 16px 0px;
+  border-radius: 30px 90px;
+}
+.boxes-successstories img:last-child {
+  width: auto;
+}
+.success-section .box-content h3 {
+  text-align: center;
+  margin: 22px 20px 24px 20px;
+  color: #051238;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: -0.288px;
+}
+.success-section .box-content p {
+  margin-bottom: 24px;
+  text-align: center;
+  color: rgba(5, 18, 56, 0.6);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  letter-spacing: -0.4px;
+}
+
+.boxes-successstories .box {
+  height: 450px;
+}
+.boxes-successstories .box-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+.success-section .boxes {
+  width: 100%;
+}
+.success-section .boxes {
+  margin-top: 62px;
+  display: flex;
+  justify-content: center;
+}
+.boxes-successstories .box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px auto;
+}
+@media screen and (max-width: 768px) {
+  .boxes-successstories .box-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .title-success .title p {
+    width: 100%;
+    padding: 13px 0px;
+    width: 70%;
+    margin: 0px auto;
+  }
+  .title-success .title h3 {
+    width: 100%;
+    margin: 0px auto;
+    color: #051238;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 24px */
+    letter-spacing: -2px;
+  }
+}

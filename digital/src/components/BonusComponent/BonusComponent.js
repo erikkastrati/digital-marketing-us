@@ -2,6 +2,7 @@ import React from "react";
 import "../BonusComponent/BonusComponent.css";
 import BoxComponent from "../Box/BoxComponent";
 import TitleComponent from "../TitleComponent/TitleComponent";
+import ButtonPractice from "../ButtonPracticeComponent/ButtonPractice";
 const BonusComponent = () => {
   const boxes = [
     {
@@ -19,6 +20,7 @@ const BonusComponent = () => {
   ];
   return (
     <div className="container-bonus">
+      <ButtonPractice>MONTH 9-12</ButtonPractice>
       <TitleComponent
         title="Leadership Track 
 Career Accelerator "

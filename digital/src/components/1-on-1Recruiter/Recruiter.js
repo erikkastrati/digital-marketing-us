@@ -2,6 +2,7 @@ import React from "react";
 import "../1-on-1Recruiter/Recruiter.css";
 import ImgPractice from "../../assets/images/PracticeComponent.png";
 import Tick from "../../assets/images/tick.svg";
+import ButtonPractice from "../ButtonPracticeComponent/ButtonPractice";
 const Recruiter = () => {
   return (
     <div className="recruiter-container">
@@ -10,25 +11,26 @@ const Recruiter = () => {
           <img src={ImgPractice} alt="practiceimg" />
         </div>
         <div className="recruiter-right">
+          <ButtonPractice>MONTH 9 - 12</ButtonPractice>
           <h3>Personal Recruiter Consultations </h3>
 
           <div className="recruiter">
             <div className="rec">
               <img src={Tick} alt="tick" />
-              <h5>Personal outreach to 2 recruiters on your behalf</h5>
+              <h5>Personal Outreach to Recruiters on your behalf</h5>
             </div>
             <div className="rec">
               <img src={Tick} alt="tick" />
-              <h5>Handpicked selection of 5 global job opportunities</h5>
+              <h5>Handpicked selection of Global Job Opportunities</h5>
             </div>
             <div className="rec">
               <img src={Tick} alt="tick" />
-              <h5>Curated list of 5 companies tailored to your interests</h5>
+              <h5>Curated list of target companies based of your interest</h5>
             </div>
             <div className="rec">
               <img src={Tick} alt="tick" />
               <h5>
-                Weekly introductions to 5 industry recruiters for enhanced
+                Weekly introductions to industry recruiters for enhanced
                 networking
               </h5>
             </div>
@@ -49,7 +51,7 @@ const Recruiter = () => {
             <div className="rec">
               <img src={Tick} alt="tick" />
               <h5>
-                Assistance in establishing your bespoke job tracking system
+                Assistance in establishing your personal job tracking system
               </h5>
             </div>
           </div>

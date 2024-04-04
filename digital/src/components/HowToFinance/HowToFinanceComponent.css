@@ -1,0 +1,133 @@
+.finance-section {
+  max-width: 100%;
+  margin: 192px 0px;
+  padding: 0px 20px;
+}
+.howtofinance-table {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px auto;
+  padding: 64px;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(101, 119, 131, 0.1);
+}
+.howtofinance-table button {
+  margin: 0px auto;
+  cursor: pointer;
+}
+.howtofinance-table a {
+  text-decoration: none;
+}
+.howtofinance-table h3 {
+  margin-bottom: 32px;
+  color: #051238;
+  text-align: center;
+  width: 100%;
+  font-family: Manrope;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 40px */
+  letter-spacing: -1.8px;
+}
+.howtofinance-table .title p {
+  margin-bottom: 16px;
+}
+.howtofinance-table h5 {
+  color: #051238;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: -0.288px;
+}
+.howtofinance-table span {
+  width: 40%;
+  color: rgba(5, 18, 56, 0.8);
+  text-align: center;
+  padding-top: 16px;
+  margin-bottom: 40px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  letter-spacing: -0.4px;
+}
+.howtofinance-table span .ourhead {
+  color: rgba(5, 18, 56, 0.8);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: -0.4px;
+}
+.howtofinance-table .howtofinance-instructor {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.howtofinance-instructor p {
+  color: #051238;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100%; /* 14px */
+  letter-spacing: -0.6px;
+}
+@media screen and (max-width: 768px) {
+  .finance-section {
+    margin: 92px 0px;
+  }
+  .howtofinance-table h3 {
+    color: #051238;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 24px */
+    letter-spacing: -1.8px;
+  }
+  .howtofinance-table .title h3 span {
+    color: #0059ff;
+
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -1.8px;
+  }
+  .howtofinance-table h5 {
+    color: #051238;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 21.6px */
+    letter-spacing: -0.216px;
+  }
+  .howtofinance-table span {
+    width: 100%;
+    color: rgba(5, 18, 56, 0.8);
+    text-align: center;
+    padding-top: 16px;
+    margin-bottom: 40px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    letter-spacing: -0.4px;
+  }
+}

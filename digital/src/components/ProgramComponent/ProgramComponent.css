@@ -23,7 +23,9 @@
   line-height: 100%; /* 40px */
   letter-spacing: -1.8px;
 }
-
+.programs-left .button-practice {
+  margin-bottom: 32px;
+}
 .program-right img {
   width: 85%;
   display: flex;

@@ -43,44 +43,38 @@
   letter-spacing: -0.8px;
   margin-bottom: 44px;
 }
-.hero__left .second-paragraph {
-  color: rgba(0, 0, 0, 0.8);
-  font-family: Manrope;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 120%; /* 19.2px */
-  letter-spacing: -0.8px;
+.hero__left .hero-tick {
   margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
-.hero__left h5 {
+.hero-tick p {
   color: #000;
   font-family: Manrope;
-  font-size: 26px;
+  font-size: 28px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 120%; /* 31.2px */
+  font-weight: 400;
+  line-height: 120%; /* 33.6px */
   letter-spacing: -0.8px;
-  margin-bottom: 16px;
+  position: relative;
 }
-.hero__left .second-paragraph span {
-  color: rgba(0, 0, 0, 0.8);
-  font-family: Manrope;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%;
-  letter-spacing: -0.8px;
+.hero-tick .circleline {
+  font-weight: 900;
 }
-.hero__left .third-paragraph {
-  color: rgba(0, 0, 0, 0.8);
-  font-family: Manrope;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 120%; /* 19.2px */
-  letter-spacing: -0.8px;
-  margin-bottom: 45px;
+
+.hero-tick .circleline::after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 30px;
+  width: 130%;
+  height: 66px;
+  background: url(../../assets/images/circle-1.svg) no-repeat;
+  background-position: center;
+  background-size: contain;
+  transform: rotate(3.219deg);
+  padding: 9px 25px;
 }
 .hero__right {
   width: 50%;
@@ -133,6 +127,9 @@
   border-radius: 8px;
   border: 1px solid rgba(5, 18, 56, 0.2);
   background: var(--White, #fff);
+}
+.form-group select {
+  width: 97%;
 }
 .hero__form .firstchild {
   margin-top: 40px; /* Adjust the margin-top value as needed */
@@ -189,14 +186,24 @@
     line-height: 100%;
     letter-spacing: -2px;
   }
-  .hero__left .third {
-    color: #00ff94;
-    font-family: Manrope;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: 100%;
-    letter-spacing: -2px;
+  .hero-tick p {
+    font-size: 16px;
+  }
+  .hero-tick .circleline {
+    position: relative;
+  }
+  .hero-tick .circleline::after {
+    content: "";
+    position: absolute;
+    top: -27px;
+    left: -10px;
+    width: 130%;
+    height: 66px;
+    background: url(../../assets/images/circle-1.svg) no-repeat;
+    background-position: center;
+    background-size: contain;
+    transform: rotate(3.219deg);
+    padding: 9px 10px;
   }
   .hero__left,
   .hero__right {
