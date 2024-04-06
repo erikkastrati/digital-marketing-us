@@ -29,6 +29,10 @@ const Hero = () => {
     fetch(`https://akoskarova.activehosted.com/proc.php?u=570&f=570&s=&c=0&m=0&act=sub&v=2&or=8beb7dde5c1bb2035c2d2f64692a2764&fullname=${fullName}&email=${email}&phone=${phone}&field[35]=${academy}&jsonp=true`)
         .then(() => {
           setIsLoading(false);
+          setFullName('');
+          setPhone('');
+          setEmail('');
+          setAcademy('Foundation Track');
         });
   };
 
@@ -87,7 +91,9 @@ const Hero = () => {
               <option value="Growth Track" onClick={() => setAcademy("Growth Track")}>Growth Track</option>
               <option value="Leadership Track" onClick={() => setAcademy("Leadership Track")}>Leadership Track</option>
             </select>
-            <button type="submit" style={{backgroundColor: isLoading ? "gray" : "blue"}}>{isLoading ? "Applying..." : "Apply Now"}</button>
+            <button type="submit" style={{backgroundColor: isLoading ? "gray" : "blue"}} disabled={isLoading}>
+              {isLoading ? "Applying..." : "Apply Now"}
+            </button>
           </div>
         </form>
       </div>
