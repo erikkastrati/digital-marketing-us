@@ -1,15 +1,15 @@
-.offers-section h3 {
-  color: #051238;
-
-  font-family: "Manrope";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 100%; /* 40px */
-  letter-spacing: -1.8px;
-}
 .title-offersection {
   margin-bottom: 46px;
+}
+.title-offersection .title h3 {
+  color: #051238;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 44px */
+  letter-spacing: -1.8px;
 }
 .long-cards {
   display: flex;
@@ -37,6 +37,16 @@
 }
 
 @media screen and (max-width: 1068px) {
+  .title-offersection .title h3 {
+    color: #051238;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 44px */
+    letter-spacing: -1.8px;
+  }
   .offers-section {
     display: flex;
     justify-content: center;

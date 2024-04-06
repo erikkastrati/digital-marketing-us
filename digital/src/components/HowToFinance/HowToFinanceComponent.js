@@ -11,7 +11,7 @@ const HowToFinanceComponent = () => {
           title="Navigating Your Educational  "
           spantext="Investment"
         />
-        <h5>Apply for $3,500 - $5,000 Scholarship ! .</h5>
+        <h5>Apply for $3,500 - $5,000 Scholarship ! </h5>
         <span>
           Discover the steps to apply for a scholarship by scheduling a call
           with Jeff, our
@@ -21,7 +21,7 @@ const HowToFinanceComponent = () => {
           href="https://calendly.com/stojanco_ch/30min?month=2024-03"
           target="_blank"
           rel="noopener noreferrer">
-          <ButtonComponent>Book a Call</ButtonComponent>
+          <ButtonComponent>Schedule a Meeting</ButtonComponent>
         </a>
         <div className="howtofinance-instructor">
           <img src={Instructor} alt="Stojanço" />

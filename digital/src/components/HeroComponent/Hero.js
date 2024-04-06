@@ -1,6 +1,6 @@
 import React from "react";
 import "../HeroComponent/Hero.css";
-import GoogleReview from "../../assets/images/google-review.png";
+import GoogleReview from "../../assets/images/google-review.svg";
 import HeroTick from "../../assets/images/Group 44671.svg";
 
 const Hero = () => {
@@ -40,8 +40,10 @@ const Hero = () => {
       </div>
       <div className="hero__right">
         <form className="hero__form">
-          <h2>Next Group Starts on May 15!</h2>
-          <span>Fill up the form and our coordinator will contact you! </span>
+          <h2>New Cohort Begins May 15th!</h2>
+          <span>
+            Complete the form and our Scholarship Specialist will be in touch!{" "}
+          </span>
           <div className="form-group firstchild">
             <input type="text" name="fullname" placeholder="Name and Surname" />
           </div>

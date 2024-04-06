@@ -51,6 +51,6 @@ export const teamMembers = [
       "Founder of Distinct Marketing Agency with over 10 years of experience in working with Google Ads and Google Analytics. ",
     additionalInfo:
       "“He explains everything in detail. My favorite part was the workshop.”",
-    lastrow: "—Elma Kurt",
+    lastrow: "—Elena K.",
   },
 ];

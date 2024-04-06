@@ -26,48 +26,36 @@ const ProgramComponent = () => {
           <div className="program-content">
             <hr />
             <div className="section-2">
-              <h3>По завршување на модулот:</h3>
+              <h3>In this module you will: </h3>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
-                <p>
-                  Студентите ќе знаат како да постават Facebook Pixel и да
-                  креираат реклами кои ќе следат како конвертираат со користење
-                  на Facebook Ads Manager
-                </p>
-              </div>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>Ќе знаеш да оптимизираш и тестираш реклами</p>
+                <p>Create convertible ads using the Facebook Ads Manager</p>
               </div>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
                 <p>
-                  Ќе го верификуваш бизнисот во Business Manager и ќе започнеш
-                  да пушташ реклами
+                  Verify a Business and use Business Manager for running ads
                 </p>
               </div>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
-                <p>Ќе го измериш перформансот на рекламите</p>
+                <p>Measure the performance of the ads</p>
               </div>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
-                <p>
-                  Ќе ги научиш различните фази во процесот на креирање на
-                  реклами
-                </p>
+                <p>Learn the different stages upon ad creation</p>
               </div>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
-                <p>Ќе научиш таргетинг и ретаргетинг стратегии</p>
+                <p>Learn targeting & retargeting audience strategies</p>
               </div>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
-                <p>Ќе работиш со различни ad sets и ads</p>
+                <p>Work with different ad sets and ad</p>
               </div>
             </div>
             <hr />
-            <div className="section-3">
+            {/* <div className="section-3">
               <h3>Овие вештини ќе ти помогнат да работиш како:</h3>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
@@ -77,7 +65,7 @@ const ProgramComponent = () => {
                 <img src={TickModal} alt="tickmodal" />
                 <p>Social Media Specialist</p>
               </div>
-            </div>
+            </div> */}
           </div>
         );
       case "Content Marketing & Copywriting":
@@ -85,45 +73,39 @@ const ProgramComponent = () => {
           <div className="program-content">
             <hr />
             <div className="section-2">
-              <h3>По завршување на модулот:</h3>
+              <h3>In this module you will: </h3>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>Learn strategies on content writing for ads</p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p> Understand the process of storytelling</p>
+              </div>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
                 <p>
-                  Ќе научиш се што е Content Marketing и ќе дефинираш Buyer
-                  Persona
+                  Work on your own copy using practices and create high quality
+                  content strategy
                 </p>
               </div>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
-                <p>Ќе научиш како да читаш и разбираш бриф</p>
+                <p>
+                  Create different ad copy for different stages at the sales
+                  cycle, leads, prospects and customers
+                </p>
               </div>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
-                <p>Ќе научиш што е Facebook Content Marketing</p>
-              </div>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>Ќе научиш што е Influencer Marketing</p>
-              </div>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>Ќе научиш што е Spotify Content Marketing</p>
-              </div>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>Ќе научиш да дефинираш USG ( User-Generated-Content )</p>
-              </div>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>Ќе научиш да менаџираш Social Media Crisis</p>
-              </div>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>Ќе научиш стратегии и основи на Копирајтинг</p>
+                <p>
+                  Learn Wordpress basics in order to be able to use it when
+                  optimizing blogs for clients
+                </p>
               </div>
             </div>
             <hr />
-            <div className="section-3">
+            {/* <div className="section-3">
               <h3>Овие вештини ќе ти помогнат да работиш како:</h3>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
@@ -137,84 +119,31 @@ const ProgramComponent = () => {
                 <img src={TickModal} alt="tickmodal" />
                 <p>Copywriter</p>
               </div>
-            </div>
+            </div> */}
           </div>
         );
-      case "Account Management & Client Relations":
+      case "Email Marketing":
         return (
           <div className="program-content">
             <hr />
             <div className="section-2">
-              <h3>По завршување на модулот:</h3>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>Ќе разберете разлики помеѓу B2B & B2C стратегија</p>
-              </div>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>Ќе изработите стратегија за Conversion & Retention</p>
-              </div>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>Ќе можете да правите Client Onboarding</p>
-              </div>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>Ќе креирате Емаил маркетинг стратегија</p>
-              </div>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>Ќе можете да направите Линкедин стратегија</p>
-              </div>
+              <h3>In this module you will:</h3>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
                 <p>
-                  Ќе можете да креирате самостојно презентација пред клиенти (
-                  Pitch ){" "}
-                </p>
-              </div>
-            </div>
-            <hr />
-            <div className="section-3">
-              <h3>Овие вештини ќе ти помогнат да работиш како:</h3>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>Account Executive </p>
-              </div>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>Sales Development</p>
-              </div>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>B2B Business Development</p>
-              </div>
-            </div>
-          </div>
-        );
-      case "Cold Email Marketing Outreach & Lead Generation":
-        return (
-          <div className="program-content">
-            <hr />
-            <div className="section-2">
-              <h3>По завршување на модулот:</h3>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>
-                  Ќе разберете што е Lead Generation (responsibilities, types,
-                  broad overview)
+                  Create Email Marketing Strategy for a client and execute it
                 </p>
               </div>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
-                <p>Концепти на добра емаил кампања </p>
+                <p>
+                  Embed the Email Marketing as part of the overall digital
+                  marketing strategy{" "}
+                </p>
               </div>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
-                <p>
-                  Ќе разберете што е Cold email outreach - значење на product /
-                  pain points / prompts for using Chat GPT{" "}
-                </p>
+                <p>Automate the processes, using Email Marketing Software</p>
               </div>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
@@ -226,15 +155,22 @@ const ProgramComponent = () => {
               </div>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
-                <p>Scraping and extraction</p>
+                <p>
+                  Create lead magnets, website forms, pop ups, using Email
+                  Marketing Software and embed them on a website
+                </p>
               </div>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
-                <p>Чистење на Email листи за ефективни кампањи - Scrubby</p>
+                <p>
+                  {" "}
+                  Measure if your Email Marketing Strategy is converting leads
+                  into clients
+                </p>
               </div>
             </div>
             <hr />
-            <div className="section-3">
+            {/* <div className="section-3">
               <h3>Овие вештини ќе ти помогнат да работиш како:</h3>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
@@ -248,7 +184,89 @@ const ProgramComponent = () => {
                 <img src={TickModal} alt="tickmodal" />
                 <p>Cold Outreach Specialist </p>
               </div>
+            </div> */}
+          </div>
+        );
+      case "Google Advertising":
+        return (
+          <div className="program-content">
+            <hr />
+            <div className="section-2">
+              <h3>In this module you will:</h3>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>Set up Search and Display Ads</p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>Optimize for different audiences</p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>Create custom behaviors, and retarget customers</p>
+              </div>
             </div>
+            <hr />
+          </div>
+        );
+      case "Google Analytics and Google Tag Manager":
+        return (
+          <div className="program-content">
+            <hr />
+            <div className="section-2">
+              <h3>In this module you will:</h3>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>Work with Google Analytics 4</p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>Set up tags, triggers, variables in Google Tag Manager</p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>Create Events in GA4 and track real-time reports</p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Use GA4 and GTM to understand the users and their behavior on
+                  a website
+                </p>
+              </div>
+            </div>
+            <hr />
+          </div>
+        );
+      case "Digital Marketing Strategy ( Targeting and Re targeting Strategies )":
+        return (
+          <div className="program-content">
+            <hr />
+            <div className="section-2">
+              <h3>In this module you will:</h3>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>Connect different elements in the Digital Marketing</p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>Strategy such as Facebook Ads, Website & Email</p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Marketing to create retargeting strategies that will convert
+                  prospects into buyers
+                </p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Work on a real-project and practice conversions on your own
+                </p>
+              </div>
+            </div>
+            <hr />
           </div>
         );
       default:
@@ -293,27 +311,34 @@ const ProgramComponent = () => {
             <img
               src={Plus}
               alt="plus"
-              onClick={() => handleProgramClick("WordPress & Google Analytics")}
+              onClick={() =>
+                handleProgramClick("Google Analytics and Google Tag Manager")
+              }
             />
-            <h4>WordPress & Google Analytics </h4>
+            <h4>Google Analytics and Google Tag Manager</h4>
           </div>
           <div className="program">
             <img
               src={Plus}
               alt="plus"
               onClick={() =>
-                handleProgramClick("Account Management & Client Relations")
+                handleProgramClick(
+                  "Digital Marketing Strategy ( Targeting and Re targeting Strategies )"
+                )
               }
             />
-            <h4>Account Management & Client Relations</h4>
+            <h4>
+              Digital Marketing Strategy ( Targeting and Re targeting Strategies
+              )
+            </h4>
           </div>
           <div className="program">
             <img
               src={Plus}
               alt="plus"
-              onClick={() => handleProgramClick("Public Relations ( PR )")}
+              onClick={() => handleProgramClick("Digital Marketing KPI’s ")}
             />
-            <h4>Public Relations ( PR ) </h4>
+            <h4>Digital Marketing KPI’s </h4>
           </div>
           <div className="program">
             <img
@@ -331,13 +356,9 @@ const ProgramComponent = () => {
             <img
               src={Plus}
               alt="plus"
-              onClick={() =>
-                handleProgramClick(
-                  "Marketing Management & Digital Marketing Strategy"
-                )
-              }
+              onClick={() => handleProgramClick("Go-to-market strategy")}
             />
-            <h4>Marketing Management & Digital Marketing Strategy</h4>
+            <h4>Go-to-market strategy</h4>
           </div>
           <div className="program">
             <img
@@ -352,10 +373,12 @@ const ProgramComponent = () => {
               src={Plus}
               alt="plus"
               onClick={() =>
-                handleProgramClick("Графички дизајн за маркетери ( Canva )")
+                handleProgramClick(
+                  "Embedding Digital Marketing Strategy in UX UI   Design"
+                )
               }
             />
-            <h4>Графички дизајн за маркетери ( Canva ) </h4>
+            <h4>Embedding Digital Marketing Strategy in UX UI Design </h4>
           </div>
           <div className="program">
             <img

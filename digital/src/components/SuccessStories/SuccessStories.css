@@ -1,6 +1,6 @@
-.boxes-successstories {
-  margin: 64px 0px 208px 0px;
-  display: flex;
+.success-container {
+  width: 100%;
+  margin-bottom: 150px;
 }
 .title-success .title h3 {
   color: #051238;
@@ -18,17 +18,32 @@
   text-align: center;
   padding-bottom: 14px;
   font-family: Manrope;
-  font-size: 16px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 16px; /* 100% */
   letter-spacing: -0.4px;
 }
-.boxes-successstories {
-  padding: 0px 20px;
-  height: auto;
+
+.success-section {
+  padding: 0px 64px;
+  display: flex;
+  flex-direction: column;
 }
-.boxes-successstories img:nth-child(1) {
+.boxes-successstories .box {
+  width: 890px;
+  height: 450px;
+}
+.boxes-successstories .box .imagebox {
+  width: 206.875px;
+  height: 206.875px;
+  flex-shrink: 0;
+  margin: 0px auto;
+}
+.boxes-successstories .box .imagebox {
+  height: 250px;
+}
+.boxes-successstories .imagebox img:nth-child(1) {
   width: 206.875px;
   height: 206.875px;
   flex-shrink: 0;
@@ -43,7 +58,7 @@
 }
 .success-section .box-content h3 {
   text-align: center;
-  margin: 22px 20px 24px 20px;
+  margin-bottom: 24px;
   color: #051238;
   text-align: center;
   font-family: Manrope;
@@ -52,6 +67,9 @@
   font-weight: 800;
   line-height: 120%; /* 28.8px */
   letter-spacing: -0.288px;
+}
+.box-content {
+  padding: 22px 20px 32px 20px;
 }
 .success-section .box-content p {
   margin-bottom: 24px;
@@ -65,53 +83,23 @@
   line-height: 16px; /* 100% */
   letter-spacing: -0.4px;
 }
-
-.boxes-successstories .box {
-  height: 450px;
-}
-.boxes-successstories .box-container {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  text-align: center;
-}
-.success-section .boxes {
-  width: 100%;
-}
-.success-section .boxes {
-  margin-top: 62px;
-  display: flex;
-  justify-content: center;
-}
-.boxes-successstories .box {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.box-content img {
   margin: 0px auto;
+  display: flex;
 }
 @media screen and (max-width: 768px) {
-  .boxes-successstories .box-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
+  .box-container {
+    margin-bottom: 90px;
   }
   .title-success .title p {
-    width: 100%;
-    padding: 13px 0px;
-    width: 70%;
-    margin: 0px auto;
-  }
-  .title-success .title h3 {
-    width: 100%;
-    margin: 0px auto;
-    color: #051238;
+    color: rgba(5, 18, 56, 0.6);
     text-align: center;
+    padding-bottom: 14px;
     font-family: Manrope;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 100%; /* 24px */
-    letter-spacing: -2px;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    letter-spacing: -0.4px;
   }
 }

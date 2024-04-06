@@ -27,14 +27,14 @@ const OffersComponent = () => {
           title="FOUNDATION TRACK"
           price="$ 3,500"
           saves="Save $ 3,500"
-          buttonContent="Apply Now for Scholarship "
+          buttonContent="Apply Now for Scholarship  "
           lastparagraph="Financing also available over 12-24 months period. ! "
           priceperweek="$110 per week /"
           normalprice="Normal Price: $7,000"
         />
         <LongCard
           title="GROWTH TRACK"
-          price="$ 4,000"
+          price=" $ 4,000"
           normalprice="Normal Price: $8,000"
           saves="Save $ 4,000"
           image={Star}
@@ -44,7 +44,7 @@ const OffersComponent = () => {
             "Freelancing Module Included  ",
           ]}
           lastparagraph="Financing also available over 12-24 months period. "
-          buttonContent="Available with 50% off Scholarship"
+          buttonContent="Apply Now for Scholarship "
           buttontop="MOST POPULAR"
           scrollToId="Stojanço"
           priceperweek="$125 per week /"
@@ -53,7 +53,7 @@ const OffersComponent = () => {
           title="LEADERSHIP TRACK"
           price="$ 7,000"
           image={Heart}
-          normalprice="Normal Price:$14,000"
+          normalprice="Normal Price : $14,000"
           saves="SAVE $ 7,000"
           paragraphs={[
             "Everything from Growth Track ",
@@ -62,7 +62,7 @@ const OffersComponent = () => {
             "Personal Recruiter for Career Advancement",
           ]}
           lastparagraph="Financing also available over 12-24 months period.  "
-          buttonContent="Available with 50% off Scholarship"
+          buttonContent="Apply Now for Scholarship "
           scrollToId="Stojanço"
           priceperweek="$220 per week /"
         />

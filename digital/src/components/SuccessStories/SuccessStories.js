@@ -70,16 +70,18 @@ const SuccessStories = () => {
   ];
 
   return (
-    <div className="success-section">
-      <div className="title-success">
-        <TitleComponent
-          title="Success Stories "
-          paragraph1=" Find employment quicker with our Flexible Internship Program."
-        />
-      </div>
+    <div className="success-container">
+      <div className="success-section">
+        <div className="title-success">
+          <TitleComponent
+            title="Success Stories "
+            paragraph1=" Find employment quicker with our Flexible Internship Program."
+          />
+        </div>
 
-      <div className="boxes-successstories">
-        <BoxComponent boxes={boxes} className="boxes-success" />
+        <div className="boxes-successstories">
+          <BoxComponent boxes={boxes} className="boxes-success" />
+        </div>
       </div>
     </div>
   );

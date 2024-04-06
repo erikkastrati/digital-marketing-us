@@ -1,7 +1,7 @@
 import React from "react";
 import "../BoxTestimonials/BoxTestimonial.css";
 import ButtonComponent from "../Button/ButtonComponent";
-import Star from "../../assets/images/star.svg";
+import Star from "../../assets/images/star-testimonials.svg";
 
 const BoxTestimonials = ({ boxes, links }) => {
   return (
@@ -16,7 +16,7 @@ const BoxTestimonials = ({ boxes, links }) => {
               ))}
             </div>
 
-            <p>{box.shortDescription}</p>
+            <p className="short-description">{box.shortDescription}</p>
             <div className="box-testimonialimg">
               <img src={box.image} alt={box.altText} />
               <p>{box.imageDescription}</p>

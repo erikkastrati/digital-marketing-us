@@ -9,7 +9,7 @@ const EarningComponent = () => {
     <div className="earning-container">
       <div className="earning-section">
         <div className="earning-left">
-          <img src={EarningImg} alt="practiceimg" />
+          <img src={EarningImg} alt="practiceimg" className="blueimageright" />
         </div>
         <div className="earning-right">
           <ButtonPractice>MONTH 7</ButtonPractice>
@@ -17,7 +17,7 @@ const EarningComponent = () => {
           <div className="earnings">
             <div className="earn">
               <img src={Tick} alt="tick" />
-              <h5>Bonus Course: Start Your Freelance Caree</h5>
+              <h5>Bonus Course: Start Your Freelance Career</h5>
             </div>
             <div className="earn">
               <img src={Tick} alt="tick" />

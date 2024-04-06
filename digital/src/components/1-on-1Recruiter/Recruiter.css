@@ -68,6 +68,12 @@
     width: 100%;
   }
   .recruiter-section {
+    padding: 0px 64px;
+    display: flex;
+    gap: 121px;
+  }
+  .recruiter-section {
+    padding: 0px 44px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-start;
@@ -81,6 +87,9 @@
     justify-content: center;
   }
   .recruiter-right {
+    width: 100%;
+  }
+  .recruiter-right h3 {
     width: 100%;
   }
   .recruiter-left img {

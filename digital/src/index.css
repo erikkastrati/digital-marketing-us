@@ -138,3 +138,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.blueimageright {
+  filter: drop-shadow(8px 13px 0px #0059ff);
+}
+.blueimageleft {
+  filter: drop-shadow(-8px 13px 0px #0059ff);
+}

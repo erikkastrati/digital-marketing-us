@@ -6,7 +6,6 @@
 .team-section .titleofteam .title h3 {
   color: #051238;
   text-align: center;
-
   font-family: Manrope;
   font-size: 48px;
   font-style: normal;
@@ -22,11 +21,8 @@
   gap: 64px;
   z-index: -1;
 }
-.team-members img {
-  position: relative;
-}
 
-.team-members img:nth-child(1) {
+.team-members .image-container img {
   border-radius: 30px 90px;
   background: #0059ff;
 }
@@ -34,6 +30,12 @@
 @media screen and (max-width: 768px) {
   .team-section {
     margin-bottom: 10px;
+  }
+  .team-members .team-member-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .team-section .titleofteam .title h3 {
     color: #051238;
@@ -44,6 +46,22 @@
     font-weight: 700;
     line-height: 100%; /* 24px */
     letter-spacing: -2px;
+  }
+  .team-section .titleofteam .title h3 {
+    color: #051238;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 24px */
+    letter-spacing: -2px;
+  }
+  .team-members .info-container p {
+    text-align: center;
+  }
+  .team-members .info-container h4 {
+    margin: 0px auto;
   }
   .team-members {
     display: grid;

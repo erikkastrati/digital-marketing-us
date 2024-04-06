@@ -26,9 +26,9 @@
   background: linear-gradient(90deg, #003aff 0%, #003eff 100%);
   /* To maintain aspect ratio */
 }
-.information-part .box-container h3 {
+/* .information-part .box-container h3 {
   padding: 32px 14px;
-}
+} */
 
 @media screen and (max-width: 768px) {
   .information-part {
@@ -49,7 +49,7 @@
   }
   .information-part .title h3 {
     padding-bottom: 13px;
-    width: 90%;
+    width: 100%;
     color: #051238;
     text-align: center;
     font-family: Manrope;

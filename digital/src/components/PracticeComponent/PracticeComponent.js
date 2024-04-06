@@ -8,7 +8,7 @@ const PracticeComponent = () => {
     <div className="practice-container">
       <div className="practice-section">
         <div className="practice-left">
-          <img src={ImgPractice} alt="practiceimg" />
+          <img src={ImgPractice} alt="practiceimg" className="blueimageleft" />
         </div>
         <div className="practice-right">
           <ButtonPractice>months 4-6</ButtonPractice>

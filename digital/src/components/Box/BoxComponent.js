@@ -17,7 +17,7 @@ const BoxComponent = ({ boxes }) => {
                   allowFullScreen></iframe>
               </div>
             ) : (
-              <div>
+              <div className="imagebox">
                 {box.image && <img src={box.image} alt={box.altText} />}
               </div>
             )}

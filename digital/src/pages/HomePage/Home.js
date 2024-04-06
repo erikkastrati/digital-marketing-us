@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../HomePage/Home.css";
 import TopHeader from "../../components/TopHeaderComponent/TopHeader";
 import SecondTopHeader from "../../components/SecondTopHeaderComponent/SecondTopHeader";
@@ -19,9 +19,8 @@ import GetMegaCourse from "../../components/Get+MegaCoursesComponent/GetMegaCour
 import TeamMembersComponent from "../../components/TeamMembersComponent/TeamMembersComponent";
 import HowToFinanceComponent from "../../components/HowToFinance/HowToFinanceComponent";
 import SuccessStories from "../../components/SuccessStories/SuccessStories";
-import Concept from "../../components/ConceptComponent/Concept";
-import ArijanaComponent from "../../components/ArijanaVideo/ArijanaComponent";
 import SecureChance from "../../components/SecureChance/SecureChance";
+import FooterComponent from "../../components/FooterComponent/FooterComponent";
 
 const Home = () => {
   return (
@@ -32,7 +31,7 @@ const Home = () => {
       <Hero />
       <InformationComponent />
       <OffersComponent />
-      <Concept />
+      {/* <Concept /> */}
       <ProgramComponent />
       <HiringComponent />
       <Diploma />
@@ -45,8 +44,9 @@ const Home = () => {
       <TeamMembersComponent />
       <HowToFinanceComponent />
       <SuccessStories />
-      <ArijanaComponent />
+      {/* <ArijanaComponent /> */}
       <SecureChance />
+      <FooterComponent />
     </div>
   );
 };

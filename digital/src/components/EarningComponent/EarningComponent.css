@@ -70,6 +70,8 @@
     width: 100%;
   }
   .earning-section {
+    margin: 100px 0px;
+    padding: 0px 44px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-start;

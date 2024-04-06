@@ -8,7 +8,7 @@ const Recruiter = () => {
     <div className="recruiter-container">
       <div className="recruiter-section">
         <div className="recruiter-left">
-          <img src={ImgPractice} alt="practiceimg" />
+          <img src={ImgPractice} alt="practiceimg" className="blueimageleft" />
         </div>
         <div className="recruiter-right">
           <ButtonPractice>MONTH 9 - 12</ButtonPractice>

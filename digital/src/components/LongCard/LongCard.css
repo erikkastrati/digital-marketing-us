@@ -24,8 +24,9 @@
   text-align: center;
 }
 .long-cards {
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -36,10 +37,14 @@
   box-shadow: 0px 4px 30px 0px rgba(101, 119, 131, 0.1);
 }
 .long-card:nth-child(2) {
+  height: 950px;
   border-radius: 16px;
   border: 1px solid #000;
   background: #fff;
   box-shadow: 0px 0px 35.1px 0px rgba(101, 119, 131, 0.46);
+}
+.long-card:nth-child(2) .row-1 {
+  height: 340px;
 }
 .long-card:nth-child(3) {
   border-radius: 16px;
@@ -50,12 +55,12 @@
 .button-top {
   position: absolute;
   top: -22px; /* Adjust this value as needed to align with the top border */
-  left: 139px; 
+  left: 195px;
   z-index: 1;
   display: flex;
   padding: 12px 16px;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   color: #fff;
   text-align: center;
   font-family: Manrope;
@@ -68,7 +73,6 @@
   border-radius: 60px;
   background: #051238;
   cursor: pointer;
-
 }
 .head-longcard {
   border-radius: 10px;
@@ -223,6 +227,15 @@
 .row p {
   margin: 0;
 }
+.price_perweek h3 {
+  color: #051238;
+  font-family: Manrope;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%; /* 33px */
+  letter-spacing: -1.2px;
+}
 .row-3 .price_perweek span {
   color: #051238;
   font-family: Manrope;
@@ -263,6 +276,7 @@
   line-height: 100%; /* 18px */
   letter-spacing: -0.6px;
   transition: all 0.7s ease;
+  border: none;
 }
 .long-card:nth-child(2) .button-offer:hover {
   border-radius: 6px;
@@ -274,6 +288,7 @@
   font-weight: 700;
   line-height: 100%; /* 18px */
   letter-spacing: -0.6px;
+  border: none;
 }
 .long-card:nth-child(3) .button-offer {
   border-radius: 6px;
@@ -336,7 +351,7 @@
 @media screen and (max-width: 968px) {
   .button-top {
     top: -20px; /* Adjust this value for smaller screens */
-    left: 100px; /* Adjust this value for smaller screens */
+    left: 90px; /* Adjust this value for smaller screens */
     padding: 10px 14px; /* Adjust padding for smaller screens */
     font-size: 14px; /* Adjust font size for smaller screens */
     letter-spacing: -0.2px; /* Adjust letter spacing for smaller screens */
@@ -347,5 +362,33 @@
     justify-content: center;
     align-items: center;
     gap: 14px;
+  }
+  .long-card:nth-child(2) {
+    height: auto;
+  }
+  .long-card:nth-child(2) .button-offer {
+    border-radius: 6px;
+    background: #000;
+    color: #fff;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 18px */
+    letter-spacing: -0.6px;
+    transition: all 0.7s ease;
+    border: none;
+  }
+  .long-card:nth-child(3) .button-offer {
+    border-radius: 6px;
+    background: #a66d00;
+    color: #fff;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 18px */
+    letter-spacing: -0.6px;
+    transition: all 0.7s ease;
   }
 }
