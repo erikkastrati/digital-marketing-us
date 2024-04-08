@@ -39,7 +39,9 @@
   font-size: 16px;
   color: #333;
 }
-
+.box-content ul li {
+  list-style-type: disc;
+}
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
   .box {

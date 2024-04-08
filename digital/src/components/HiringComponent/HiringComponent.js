@@ -29,8 +29,7 @@ const HiringComponent = () => {
         <ButtonPractice>MONTH 8</ButtonPractice>
         <TitleComponent
           title="Hiring Contests"
-          paragraph1="Each month, our Hiring Challenges create a bridge, connecting skilled students "
-          paragraph2="directly with top companies looking for fresh talent."
+          paragraph1="Each month, our Hiring Challenges create a bridge, connecting skilled students directly with top companies looking for fresh talent. "
         />
         <div className="box-hiring">
           <BoxComponent boxes={boxes} className="boxes-hiring" />

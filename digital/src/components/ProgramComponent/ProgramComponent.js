@@ -68,7 +68,7 @@ const ProgramComponent = () => {
             </div> */}
           </div>
         );
-      case "Ad Content Creation & Copywriting":
+      case "Ad Copy Creation ( + Copywriting)":
         return (
           <div className="program-content">
             <hr />
@@ -269,7 +269,7 @@ const ProgramComponent = () => {
             <hr />
           </div>
         );
-      case "Cold Email Marketing Outreach & Lead Generation":
+      case "Go-to-Market Strategy":
         return (
           <div className="program-content">
             <hr />
@@ -278,52 +278,25 @@ const ProgramComponent = () => {
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
                 <p>
-                  Understand what is Lead Generation (responsibilities, types,
-                  broad overview)
-                </p>
-              </div>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>Identify the concepts of a good Email Campaign</p>
-              </div>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>
-                  Marketing to create retargeting strategies that will convert
-                  prospects into buyers
+                  Understand all the elements prior to launching a digital
+                  marketing strategy on a target market
                 </p>
               </div>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
                 <p>
-                  Be able to use Cold Email Outreach - meaning of product / pain
-                  points / prompts for using ChatGPT
+                  Understand the process of Go-to-market and setting the plan
                 </p>
               </div>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
-                <p>
-                  Select Data Providers for Cold Email Campaigns - Identify What
-                  are you selling / Influencers / Ecom stores / Apollo /
-                  Intention database
-                </p>
-              </div>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>Learn how to do scraping and extraction</p>
-              </div>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>
-                  Learn how to clean Email Lists in order to build effective
-                  campaigns using Scrubby
-                </p>
+                <p>Create a checklist for go-to-market strategy</p>
               </div>
             </div>
             <hr />
           </div>
         );
-      case "Search Engine Optimization":
+      case "Buyer Persona":
         return (
           <div className="program-content">
             <hr />
@@ -331,54 +304,15 @@ const ProgramComponent = () => {
               <h3>In this module you will:</h3>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
-                <p>
-                  Learn how to do detailed keyword research and understand
-                  keyword relevance, competition and targeting
-                </p>
+                <p>Create buyer personas for business</p>
               </div>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
-                <p>
-                  Learn how to use Technical SEO principles (crawling, indexing
-                  of websites, site speed, mobile optimization, sitemap and
-                  robots)
-                </p>
+                <p>Create a value proposition for a buyer persona</p>
               </div>
               <div className="description-modaltick">
                 <img src={TickModal} alt="tickmodal" />
-                <p>
-                  Learn how to use Google Search Console (including to add and
-                  verify property and to identify issues on a website)
-                </p>
-              </div>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>
-                  Learn how to use On-Page SEO principles (content optimization,
-                  keyword research, heading structure, image optimization, meta
-                  descriptions, outbound and inbound links)
-                </p>
-              </div>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>
-                  Learn how to use Off-Page SEO ( link building strategy
-                  including backlinks)
-                </p>
-              </div>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>
-                  Learn how to able to analyze traffic from GA4 and UA ( set up
-                  goals and events)
-                </p>
-              </div>
-              <div className="description-modaltick">
-                <img src={TickModal} alt="tickmodal" />
-                <p>
-                  Learn how to able to create an SEO Site Audit for a given
-                  company on their own
-                </p>
+                <p>Convert that value into an ad copy</p>
               </div>
             </div>
             <hr />
@@ -499,29 +433,29 @@ const ProgramComponent = () => {
             <img
               src={Plus}
               alt="plus"
-              onClick={() => handleProgramClick("Search Engine Optimization")}
-            />
-            <h4>Search Engine Optimization</h4>
-          </div>
-          <div className="program">
-            <img
-              src={Plus}
-              alt="plus"
-              onClick={() =>
-                handleProgramClick("Ad Content Creation & Copywriting")
-              }
-            />
-            <h4>Ad Content Creation & Copywriting</h4>
-          </div>
-          <div className="program">
-            <img
-              src={Plus}
-              alt="plus"
               onClick={() =>
                 handleProgramClick("Google Analytics and Google Tag Manager")
               }
             />
             <h4>Google Analytics and Google Tag Manager</h4>
+          </div>
+          <div className="program">
+            <img
+              src={Plus}
+              alt="plus"
+              onClick={() =>
+                handleProgramClick("Ad Copy Creation ( + Copywriting)")
+              }
+            />
+            <h4>Ad Copy Creation ( + Copywriting)</h4>
+          </div>
+          <div className="program">
+            <img
+              src={Plus}
+              alt="plus"
+              onClick={() => handleProgramClick("Buyer Persona")}
+            />
+            <h4>Buyer Persona </h4>
           </div>
           <div className="program">
             <img
@@ -542,28 +476,17 @@ const ProgramComponent = () => {
             <img
               src={Plus}
               alt="plus"
-              onClick={() =>
-                handleProgramClick(
-                  "Create a Buyer Persona and Structure a Go-to-Market Strategy around"
-                )
-              }
+              onClick={() => handleProgramClick("Go-to-Market Strategy")}
             />
-            <h4>
-              Create a Buyer Persona and Structure a Go-to-Market Strategy
-              around{" "}
-            </h4>
+            <h4>Go-to-Market Strategy</h4>
           </div>
           <div className="program">
             <img
               src={Plus}
               alt="plus"
-              onClick={() =>
-                handleProgramClick(
-                  "Cold Email Marketing Outreach & Lead Generation"
-                )
-              }
+              onClick={() => handleProgramClick("Email Marketing")}
             />
-            <h4>Cold Email Marketing Outreach & Lead Generation</h4>
+            <h4>Email Marketing</h4>
           </div>
           <div className="program">
             <img
@@ -581,9 +504,9 @@ const ProgramComponent = () => {
             <img
               src={Plus}
               alt="plus"
-              onClick={() => handleProgramClick("Email Marketing")}
+              onClick={() => handleProgramClick("Google Advertising")}
             />
-            <h4>Email Marketing</h4>
+            <h4>Google Advertising </h4>
           </div>
           <div className="program">
             <img
@@ -592,14 +515,6 @@ const ProgramComponent = () => {
               onClick={() => handleProgramClick("Digital Marketing KPI’s ")}
             />
             <h4>Digital Marketing KPI’s </h4>
-          </div>
-          <div className="program">
-            <img
-              src={Plus}
-              alt="plus"
-              onClick={() => handleProgramClick("Google Advertising")}
-            />
-            <h4>Google Advertising </h4>
           </div>
         </div>
       </div>

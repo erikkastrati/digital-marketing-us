@@ -25,6 +25,12 @@ const BoxComponent = ({ boxes }) => {
               <h3>{box.title}</h3>
               <p>{box.description}</p>
               <p>{box.shortdescription}</p>
+              <ul>
+                {box.bonuscontent &&
+                  box.bonuscontent.map((content, index) => (
+                    <li key={index}>{content}</li>
+                  ))}
+              </ul>
               {box.company && <img src={box.company} alt={box.altCompany} />}
             </div>
           </div>

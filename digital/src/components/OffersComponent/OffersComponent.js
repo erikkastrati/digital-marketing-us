@@ -29,7 +29,7 @@ const OffersComponent = () => {
           saves="Save $ 3,500"
           buttonContent="Apply Now for Scholarship  "
           lastparagraph="Financing also available over 12-24 months period. ! "
-          priceperweek="$110 per week /"
+          priceperweek="$175 per week /"
           normalprice="Normal Price: $7,000"
         />
         <LongCard
@@ -47,7 +47,7 @@ const OffersComponent = () => {
           buttonContent="Apply Now for Scholarship "
           buttontop="MOST POPULAR"
           scrollToId="Stojanço"
-          priceperweek="$125 per week /"
+          priceperweek="$200 per week /"
         />
         <LongCard
           title="LEADERSHIP TRACK"
@@ -64,7 +64,7 @@ const OffersComponent = () => {
           lastparagraph="Financing also available over 12-24 months period.  "
           buttonContent="Apply Now for Scholarship "
           scrollToId="Stojanço"
-          priceperweek="$220 per week /"
+          priceperweek="$350 per week /"
         />
       </div>
     </div>

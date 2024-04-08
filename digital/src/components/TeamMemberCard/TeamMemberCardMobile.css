@@ -2,7 +2,9 @@
   display: flex;
   gap: 33px;
 }
-
+.team-member-cardmobile {
+  padding: 0px 10px;
+}
 .team-member-cardmobile h4 {
   text-align: left;
 }

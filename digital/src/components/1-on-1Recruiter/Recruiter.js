@@ -1,6 +1,6 @@
 import React from "react";
 import "../1-on-1Recruiter/Recruiter.css";
-import ImgPractice from "../../assets/images/PracticeComponent.png";
+import ImgPractice from "../../assets/images/recruiter-image.png";
 import Tick from "../../assets/images/tick.svg";
 import ButtonPractice from "../ButtonPracticeComponent/ButtonPractice";
 const Recruiter = () => {

@@ -18,7 +18,7 @@ const HowToFinanceComponent = () => {
           <span className="ourhead"> Head of Scholarships in the USA.</span>
         </span>
         <a
-          href="https://calendly.com/jeff-zwhl/30min"
+          href="https://calendly.com/jeff-zwhl/creativehub-30min?month=2024-04"
           target="_blank"
           rel="noopener noreferrer">
           <ButtonComponent>Schedule a Meeting</ButtonComponent>

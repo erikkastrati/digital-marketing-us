@@ -13,7 +13,7 @@ function LongCard({
   saves,
   priceperweek,
   buttontop,
-  scrollToId, 
+  scrollToId,
 }) {
   const scrollToSection = () => {
     const element = document.getElementById(scrollToId);
@@ -57,7 +57,7 @@ function LongCard({
       <div className="price_perweek">
         <h3>
           {priceperweek}
-          <span className="weekspan">32 weeks</span>
+          <span className="weekspan">20 weeks</span>
         </h3>
       </div>
       <hr />

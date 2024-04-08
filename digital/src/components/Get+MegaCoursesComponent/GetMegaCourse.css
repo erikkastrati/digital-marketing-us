@@ -14,9 +14,9 @@
 }
 .getmegacourse_table {
   padding: 0px 30px;
-  display: flex;
-  justify-content: center;
-  gap: 32px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 @media screen and (max-width: 768px) {
   .getmegacourse_section {

@@ -1,6 +1,6 @@
 import React from "react";
 import Tick from "../..//assets/images/Group 44670.svg";
-import "./GetMegaCourseCard.css";
+import "../Get+MegaCoursesComponent/GetMegaCourseCard.css";
 const GetMegaCourseCard = ({
   title,
   subtitle,

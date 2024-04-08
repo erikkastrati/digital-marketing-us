@@ -1,6 +1,8 @@
 .concept-containermobile {
   width: 100%;
-  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 90px 0px;
 }
 .concept-sectionmobile .title h3 {
@@ -14,6 +16,7 @@
   line-height: 100%; /* 48px */
 }
 .concept-sectionmobile .title p {
+  padding: 0px 20px;
   color: rgba(5, 18, 56, 0.6);
   text-align: center;
   font-family: Manrope;
@@ -47,6 +50,7 @@
 .circle-colormobile img {
   width: 20px;
   height: 20px;
+  pointer-events: none;
 }
 .circle-colormobile h4 {
   color: #051238;

@@ -1,3 +1,8 @@
 .slider-containermobile .slick-slide img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0px auto;
+  pointer-events: none;
 }
