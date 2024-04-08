@@ -1,0 +1,13 @@
+.slider-container {
+  height: auto;
+}
+.slider-container .slick-slide img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+.custom-arrows1 {
+  display: flex;
+  justify-content: center;
+}

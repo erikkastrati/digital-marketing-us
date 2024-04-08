@@ -12,7 +12,12 @@ const SecondTopHeader = () => {
         </div>
         <div className="right-secondhead">
           <img src={Call} alt="bookcall" />
-          <h4>Book a call</h4>
+          <a
+            href="https://calendly.com/jeff-zwhl/30min"
+            target="_blank"
+            rel="noopener noreferrer">
+            <h4>Schedule a Meeting</h4>
+          </a>
         </div>
       </div>
     </div>

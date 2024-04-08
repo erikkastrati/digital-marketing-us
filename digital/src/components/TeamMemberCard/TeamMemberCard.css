@@ -42,7 +42,7 @@
 
 .info-container p {
   margin: 0;
-  width: 79%;
+  width: 65%;
   color: rgba(5, 18, 56, 0.6);
   font-family: "Manrope", sans-serif;
   font-size: 16px;
@@ -52,7 +52,7 @@
   letter-spacing: -0.8px;
 }
 .info-container h4 {
-  width: 79%;
+  width: 65%;
   margin: 24px 0px;
   color: #051238;
   font-family: Manrope;

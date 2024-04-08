@@ -1,0 +1,54 @@
+.teammember-head {
+  display: flex;
+  gap: 33px;
+}
+
+.team-member-cardmobile h4 {
+  text-align: left;
+}
+.team-member-cardmobile h5 {
+  text-align: left;
+}
+.teammember-head .image-container img {
+  border-radius: 30px 90px;
+  background: #0059ff;
+}
+.team-member-cardmobile .image-container h2 {
+  color: #051238;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: -0.192px;
+}
+.team-member-cardmobile .image-container p {
+  color: rgba(5, 18, 56, 0.6);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+  letter-spacing: -0.8px;
+}
+.team-member-cardmobile h4 {
+  padding: 0px 10px;
+  color: #051238;
+  margin: 24px 0px;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: -0.4px;
+}
+.team-member-cardmobile h5 {
+  padding: 0px 10px;
+  color: #051238;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100%; /* 14px */
+  letter-spacing: -0.6px;
+}

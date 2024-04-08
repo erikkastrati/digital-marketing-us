@@ -1,0 +1,30 @@
+.box-testimonials {
+  margin-top: 24px;
+}
+.testimonial-sliders .box-testimonials .stars {
+  display: flex;
+}
+.title-testimonial .title h3 {
+  color: #051238;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 24px */
+  letter-spacing: -2px;
+  margin-bottom: 24px;
+}
+.title-testimonial .title p {
+  width: 50%;
+  color: rgba(5, 18, 56, 0.6);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+  letter-spacing: -0.4px;
+  margin-bottom: 24px;
+  margin: 0px auto;
+}

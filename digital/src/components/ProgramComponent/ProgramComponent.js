@@ -68,7 +68,7 @@ const ProgramComponent = () => {
             </div> */}
           </div>
         );
-      case "Content Marketing & Copywriting":
+      case "Ad Content Creation & Copywriting":
         return (
           <div className="program-content">
             <hr />
@@ -269,6 +269,212 @@ const ProgramComponent = () => {
             <hr />
           </div>
         );
+      case "Cold Email Marketing Outreach & Lead Generation":
+        return (
+          <div className="program-content">
+            <hr />
+            <div className="section-2">
+              <h3>In this module you will:</h3>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Understand what is Lead Generation (responsibilities, types,
+                  broad overview)
+                </p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>Identify the concepts of a good Email Campaign</p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Marketing to create retargeting strategies that will convert
+                  prospects into buyers
+                </p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Be able to use Cold Email Outreach - meaning of product / pain
+                  points / prompts for using ChatGPT
+                </p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Select Data Providers for Cold Email Campaigns - Identify What
+                  are you selling / Influencers / Ecom stores / Apollo /
+                  Intention database
+                </p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>Learn how to do scraping and extraction</p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Learn how to clean Email Lists in order to build effective
+                  campaigns using Scrubby
+                </p>
+              </div>
+            </div>
+            <hr />
+          </div>
+        );
+      case "Search Engine Optimization":
+        return (
+          <div className="program-content">
+            <hr />
+            <div className="section-2">
+              <h3>In this module you will:</h3>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Learn how to do detailed keyword research and understand
+                  keyword relevance, competition and targeting
+                </p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Learn how to use Technical SEO principles (crawling, indexing
+                  of websites, site speed, mobile optimization, sitemap and
+                  robots)
+                </p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Learn how to use Google Search Console (including to add and
+                  verify property and to identify issues on a website)
+                </p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Learn how to use On-Page SEO principles (content optimization,
+                  keyword research, heading structure, image optimization, meta
+                  descriptions, outbound and inbound links)
+                </p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Learn how to use Off-Page SEO ( link building strategy
+                  including backlinks)
+                </p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Learn how to able to analyze traffic from GA4 and UA ( set up
+                  goals and events)
+                </p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Learn how to able to create an SEO Site Audit for a given
+                  company on their own
+                </p>
+              </div>
+            </div>
+            <hr />
+          </div>
+        );
+      case "Create a Buyer Persona and Structure a Go-to-Market Strategy around":
+        return (
+          <div className="program-content">
+            <hr />
+            <div className="section-2">
+              <h3>In this module you will:</h3>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>Create buyer personas for business</p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>Create a value proposition for a buyer persona</p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>Convert that value into an ad copy</p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Understand all the elements prior to launching a digital
+                  marketing strategy on a target market
+                </p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Understand the process of Go-to-market and setting the plan
+                </p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>Create a checklist for go-to-market strategy</p>
+              </div>
+            </div>
+            <hr />
+          </div>
+        );
+      case "Embedding Digital Marketing Strategy in UX UI   Design":
+        return (
+          <div className="program-content">
+            <hr />
+            <div className="section-2">
+              <h3>In this module you will:</h3>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Suggest lead magnets and convertible content while working on
+                  design mockups with the team
+                </p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Work with UX UI Designers to create high quality copy that
+                  will convert prospects to leads
+                </p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>Learn multiple strategies and build a track record on it</p>
+              </div>
+            </div>
+            <hr />
+          </div>
+        );
+      case "Digital Marketing KPI’s ":
+        return (
+          <div className="program-content">
+            <hr />
+            <div className="section-2">
+              <h3>In this module you will:</h3>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Measure your own performance by setting up the right KPI’s for
+                  you
+                </p>
+              </div>
+              <div className="description-modaltick">
+                <img src={TickModal} alt="tickmodal" />
+                <p>
+                  Draft reports for clients based on conversion data from your
+                  work
+                </p>
+              </div>
+            </div>
+            <hr />
+          </div>
+        );
       default:
         return null;
     }
@@ -302,10 +508,10 @@ const ProgramComponent = () => {
               src={Plus}
               alt="plus"
               onClick={() =>
-                handleProgramClick("Content Marketing & Copywriting")
+                handleProgramClick("Ad Content Creation & Copywriting")
               }
             />
-            <h4>Content Marketing & Copywriting </h4>
+            <h4>Ad Content Creation & Copywriting</h4>
           </div>
           <div className="program">
             <img
@@ -336,9 +542,16 @@ const ProgramComponent = () => {
             <img
               src={Plus}
               alt="plus"
-              onClick={() => handleProgramClick("Digital Marketing KPI’s ")}
+              onClick={() =>
+                handleProgramClick(
+                  "Create a Buyer Persona and Structure a Go-to-Market Strategy around"
+                )
+              }
             />
-            <h4>Digital Marketing KPI’s </h4>
+            <h4>
+              Create a Buyer Persona and Structure a Go-to-Market Strategy
+              around{" "}
+            </h4>
           </div>
           <div className="program">
             <img
@@ -356,9 +569,13 @@ const ProgramComponent = () => {
             <img
               src={Plus}
               alt="plus"
-              onClick={() => handleProgramClick("Go-to-market strategy")}
+              onClick={() =>
+                handleProgramClick(
+                  "Embedding Digital Marketing Strategy in UX UI   Design"
+                )
+              }
             />
-            <h4>Go-to-market strategy</h4>
+            <h4>Embedding Digital Marketing Strategy in UX UI Design</h4>
           </div>
           <div className="program">
             <img
@@ -372,13 +589,9 @@ const ProgramComponent = () => {
             <img
               src={Plus}
               alt="plus"
-              onClick={() =>
-                handleProgramClick(
-                  "Embedding Digital Marketing Strategy in UX UI   Design"
-                )
-              }
+              onClick={() => handleProgramClick("Digital Marketing KPI’s ")}
             />
-            <h4>Embedding Digital Marketing Strategy in UX UI Design </h4>
+            <h4>Digital Marketing KPI’s </h4>
           </div>
           <div className="program">
             <img

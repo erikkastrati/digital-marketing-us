@@ -1,8 +1,11 @@
-.concepts-section {
+.concept-container {
+  width: 100%;
   margin: 125px 0px;
-  padding: 0px 64px;
 }
-.concepts-section .title p {
+.concept-section .title {
+  margin-bottom: 45px;
+}
+.concept-section .title p {
   color: rgba(5, 18, 56, 0.6);
   text-align: center;
   font-family: Manrope;
@@ -12,8 +15,9 @@
   line-height: 120%; /* 28.8px */
   letter-spacing: -0.4px;
 }
-.concepts-section .title .paragraph-2 {
+.concept-section .title p:nth-child(3) {
   color: rgba(5, 18, 56, 0.6);
+
   font-family: Manrope;
   font-size: 24px;
   font-style: normal;
@@ -21,39 +25,27 @@
   line-height: 120%;
   letter-spacing: -0.4px;
 }
-.table-concept {
-  width: 100%;
+.circle-colors {
   display: flex;
   justify-content: center;
-  margin-top: 64px;
+  gap: 54px;
 }
-
-.table-concept img {
-  width: 90%;
+.circle-color {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
-.table-concept-mobile {
-  display: none;
+.circle-color h4 {
+  color: #051238;
+  font-family: Manrope;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 26.4px */
+  letter-spacing: -0.264px;
 }
-@media screen and (max-width: 784px) {
-  .concepts-section {
-    margin-bottom: 105px;
-    padding: 0px 20px;
-  }
-  .table-concept img {
-    width: 89%;
-    height: 100%;
-  }
-  .table-concept {
-    display: none;
-  }
-  .table-concept-mobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-  .table-concept-mobile img {
-    width: 90%;
-    margin: 0px auto;
-  }
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
 }

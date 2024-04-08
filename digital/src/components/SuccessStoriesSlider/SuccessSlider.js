@@ -1,8 +1,10 @@
-import React from "react";
-import "../SuccessStories/SuccessStories.css";
-import TitleComponent from "../TitleComponent/TitleComponent";
-import BoxComponent from "../Box/BoxComponent";
-const SuccessStories = () => {
+import React, { useRef } from "react";
+import Slider from "react-slick";
+// import BoxComponent from "../Box/BoxComponent.js";
+import BoxSuccess from "../BoxSuccess/BoxSuccess.js";
+import TitleComponent from "../TitleComponent/TitleComponent.js";
+import "../SuccessStoriesSlider/SuccessSlider.css";
+export default function SuccessSlider() {
   const boxes = [
     {
       image: require("../../assets/success-stories/Aleksandar Dinev.png"),
@@ -57,7 +59,7 @@ const SuccessStories = () => {
       image: require("../../assets/success-stories/Goran Georgiev 1.png"),
       altText: "Greg G.",
       title: "Greg G.",
-      description: "Digital Marketing Coordinator",
+      description: "Digital Marketing Cordinator",
       company: require("../../assets/success-stories/yugoimpex_export_import_doo___woodworking_machinery_logo.png"),
     },
     {
@@ -69,22 +71,77 @@ const SuccessStories = () => {
     },
   ];
 
+  const sliderRef = useRef(null); // Reference to the Slider component
+
+  const prevButtonImage = require("../../assets/images/ArrowCircleLeft.png");
+  const nextButtonImage = require("../../assets/images/ArrowCircleRight.png");
+
+  const customPrevArrow = (
+    <img
+      src={prevButtonImage}
+      alt="Previous"
+      className="custom-arrow prev-arrow"
+      onClick={() => sliderRef.current.slickPrev()} // Go to previous slide
+    />
+  );
+
+  const customNextArrow = (
+    <img
+      src={nextButtonImage}
+      alt="Next"
+      className="custom-arrow next-arrow"
+      onClick={() => sliderRef.current.slickNext()} // Go to next slide
+    />
+  );
+
+  const isMobile = window.innerWidth <= 768; // Check if the screen width is less than or equal to 768px
+
+  var settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1, // Display one card per slide
+    slidesToScroll: 1,
+    prevArrow: customPrevArrow,
+    nextArrow: customNextArrow,
+    responsive: [
+      {
+        breakpoint: 768, // Adjust for screens with width 768px
+        settings: {
+          slidesToShow: 1, // Display one card per slide on mobile
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
-    <div className="success-container">
-      <div className="success-section">
-        <div className="title-success">
+    <>
+      <div className="success-sliders">
+        <div className="title-teammembermobile">
+          {" "}
           <TitleComponent
-            title="Success Stories "
-            paragraph1=" Find employment quicker with our Flexible Internship Program."
+            title="Success Stories"
+            paragraph1=" Find employment quicker"
+            paragraph2=" with our Flexible Internship Program."
           />
         </div>
 
-        <div className="boxes-successstories">
-          <BoxComponent boxes={boxes} className="boxes-success" />
+        <div className="slider-wrapper">
+          {isMobile && (
+            <div className="custom-arrows">
+              <div className="custom-prev-arrow">{customPrevArrow}</div>
+              <div className="custom-next-arrow">{customNextArrow}</div>
+            </div>
+          )}
+          <Slider ref={sliderRef} {...settings}>
+            {boxes.map((box, index) => (
+              <div key={index}>
+                <BoxSuccess box={box} />
+              </div>
+            ))}
+          </Slider>
         </div>
       </div>
-    </div>
+    </>
   );
-};
-
-export default SuccessStories;
+}

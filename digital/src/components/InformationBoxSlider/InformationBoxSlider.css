@@ -1,0 +1,40 @@
+.information-box-sliders {
+  margin-bottom: 100px;
+  border-radius: 14px;
+  max-width: 427px;
+  height: auto;
+
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(101, 119, 131, 0.1);
+}
+.information-boxslider img {
+  width: 320px;
+  height: auto;
+  border-radius: 14px;
+  margin-bottom: 10px;
+  margin: 0px auto;
+}
+.information-boxslider h3 {
+  color: #051238;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 21.6px */
+  letter-spacing: -0.216px;
+  padding: 10px;
+}
+.slick-dots {
+  display: none !important;
+}
+.slick-next,
+.slick-prev {
+  display: none !important;
+}
+/* Styling for custom arrows (optional) */
+.slider-wrapper {
+  width: 390px;
+  position: relative;
+  margin: 0px auto;
+}

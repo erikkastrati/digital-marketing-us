@@ -4,7 +4,7 @@ const TopHeader = () => {
   return (
     <div className="topheader-section">
       <div className="topheader-title">
-        <h6>PROMO OFFER ! </h6>
+        <h6>PROGRAM STARTS MAY 15 ! </h6>
       </div>
     </div>
   );
