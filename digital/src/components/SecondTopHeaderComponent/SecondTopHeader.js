@@ -13,7 +13,7 @@ const SecondTopHeader = () => {
         <div className="right-secondhead">
           <img src={Call} alt="bookcall" />
           <a
-            href="https://calendly.com/jeff-zwhl/30min"
+            href="https://calendly.com/jeff-zwhl/creativehub-30min?month=2024-04"
             target="_blank"
             rel="noopener noreferrer">
             <h4>Schedule a Meeting</h4>

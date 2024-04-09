@@ -28,7 +28,7 @@ const OffersComponent = () => {
           price="$ 3,500"
           saves="Save $ 3,500"
           buttonContent="Apply Now for Scholarship  "
-          lastparagraph="Financing also available over 12-24 months period. ! "
+          lastparagraph="Financing also available over 12-24 months period. "
           priceperweek="$175 per week /"
           normalprice="Normal Price: $7,000"
         />
@@ -57,7 +57,7 @@ const OffersComponent = () => {
           saves="SAVE $ 7,000"
           paragraphs={[
             "Everything from Growth Track ",
-            "Advanced Courses ( AI + Video Skills ) ",
+            "Advanced Courses ( AI, Video Edit, SEO and Cold Email Outreach )  ",
             "Career Accelerator Program  ",
             "Personal Recruiter for Career Advancement",
           ]}

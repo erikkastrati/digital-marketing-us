@@ -18,7 +18,7 @@
   line-height: 100%; /* 40px */
   letter-spacing: -2px;
   margin: 0px auto;
-  padding-bottom: 64px;
+  padding-bottom: 34px;
 }
 .securechance-section .title p {
   width: 50%;
@@ -31,7 +31,7 @@
   line-height: 100%; /* 24px */
   letter-spacing: 3px;
   margin: 0px auto;
-  padding-bottom: 64px;
+  padding-bottom: 34px;
 }
 @media screen and (max-width: 1169px) {
   .securechance-container {
@@ -51,7 +51,7 @@
     line-height: 100%; /* 40px */
     letter-spacing: 1px;
     margin: 0px auto;
-    padding-bottom: 64px;
+    padding-bottom: 34px;
   }
   .securechance-section .title p {
     width: 100%;
@@ -63,14 +63,17 @@
     font-weight: 500;
     line-height: 100%; /* 24px */
     margin: 0px auto;
-    padding-bottom: 64px;
+    padding-bottom: 34px;
     letter-spacing: 1px;
   }
   .form-section {
     margin-bottom: 30px;
+    height: auto;
+    display: flex;
+    justify-content: center;
   }
   .form-section .hero__form {
-    width: 70%;
+    width: 80%;
     display: flex;
 
     justify-content: center;

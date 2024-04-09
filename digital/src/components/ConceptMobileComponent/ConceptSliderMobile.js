@@ -49,6 +49,10 @@ const ConceptSliderMobile = () => {
 
   return (
     <div className="slider-containermobile">
+      <div className="custom-arrows1">
+        <div className="custom-prev-arrow">{customPrevArrow}</div>
+        <div className="custom-next-arrow">{customNextArrow}</div>
+      </div>
       <Slider {...settings} ref={sliderRef}>
         <div>
           <img src={GreenDiv} alt="greendiv" />
@@ -60,10 +64,6 @@ const ConceptSliderMobile = () => {
           <img src={BrownDiv} alt="browndiv" />
         </div>
       </Slider>
-      <div className="custom-arrows1">
-        <div className="custom-prev-arrow">{customPrevArrow}</div>
-        <div className="custom-next-arrow">{customNextArrow}</div>
-      </div>
     </div>
   );
 };
