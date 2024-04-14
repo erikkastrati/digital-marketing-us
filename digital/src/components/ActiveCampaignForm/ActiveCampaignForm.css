@@ -1,0 +1,11 @@
+.submission-successful {
+    margin-top: 2%;
+    text-align: center;
+    color: #051238;
+    font-family: Manrope, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 14px */
+    letter-spacing: -0.3px;
+}
